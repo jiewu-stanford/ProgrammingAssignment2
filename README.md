@@ -103,3 +103,10 @@ In order to complete this assignment, you must do the following:
 ### Grading
 
 This assignment will be graded via peer assessment.
+
+### To call the cache inverse function run the following
+```
+    x <- matrix(c(2,0,0,2),2,2)
+    i <- makeCacheMatrix(x)
+    cacheSolve(i)
+```
